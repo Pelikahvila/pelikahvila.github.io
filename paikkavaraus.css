@@ -1,0 +1,43 @@
+header { grid-area: header;}
+aside { grid-area: aside;}
+article { grid-area: article;}
+nav { grid-area: nav;}
+footer { grid-area: footer;}
+section { grid-area: section;}
+
+body {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'aside nav nav nav nav nav'
+        'aside article article article section section'
+        'footer footer footer footer footer footer';
+      grid-gap: 10px;
+      background-color: peachpuff;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    header, aside, article, nav, footer,  section {
+        border: 0.2em solid black; 
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px){
+      body {
+        display: flex;
+        flex-direction: column;
+        background-color: navajowhite;
+        padding: 3px;
+        font-size: 10px;
+        }
+    
+      aside {
+        display: none;
+      }
+    }
+    
+    @media screen and (max-width: 320px){
+      body {
+        width: 320px;
+      }
+    }
