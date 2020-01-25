@@ -23,6 +23,34 @@ body {
       font-family: 'Lobster Two', cursive;
     }
 
+    .navbar {
+      display: flex;
+      list-style-type: none;
+      height: auto;
+      width: auto;
+      padding: 0.5em;
+      border-width: 2px;
+      border-radius: 20px;
+    }
+
+    .navbutton {
+      display: inline-flex;
+      padding: 1.0em 2.0em;
+      border-radius: 0.3em;
+      margin-top: 0.2em;
+      margin-bottom: 0.2em;
+      margin-right: 1.0em;
+      margin-left: 1.0em;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
     header, aside, article, nav, footer,  section {
         border: none; 
     }
@@ -35,10 +63,6 @@ body {
         padding: 3px;
         font-size: 10px;
         }
-    
-      aside {
-        
-      }
     }
     
     @media screen and (max-width: 320px){
