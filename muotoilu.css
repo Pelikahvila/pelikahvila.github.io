@@ -1,4 +1,4 @@
-/* Mainontajulisteissa käytetyt alkuperäisvärit ja niiden koodit, joita voi hyödyntää myös itse sivustolla:
+/* 
 Oranssi: #fcb669, R252 G182 B105
 Pinkki: #f9ace3, R249 G172 B227 */
 
@@ -37,7 +37,7 @@ body {
         }
     
       aside {
-        display: none;
+        
       }
     }
     
