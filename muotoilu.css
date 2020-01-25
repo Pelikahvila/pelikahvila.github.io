@@ -24,7 +24,8 @@ body {
     }
 
     .navbar {
-      display: flex;
+      display: block;
+      background-color: #ce7eb7;
       list-style-type: none;
       height: auto;
       width: auto;
@@ -35,12 +36,12 @@ body {
 
     .navbutton {
       display: inline-flex;
-      padding: 1.0em 2.0em;
-      border-radius: 0.3em;
+      padding: 1.0em 1.0em;
+      border-radius: 0.1em;
       margin-top: 0.2em;
       margin-bottom: 0.2em;
-      margin-right: 1.0em;
-      margin-left: 1.0em;
+      margin-right: 0.5em;
+      margin-left: 0.5em;
     }
 
     h1 {
