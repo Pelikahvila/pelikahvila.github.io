@@ -59,6 +59,12 @@ section { grid-area: section;}
       margin-left: auto;
       margin-right: auto;
     }
+    .julisteet {
+      width: auto;
+      height: auto;
+      max-width: 500px;
+      height: 650px;
+    }
   
     h1 {
       text-align: center;
