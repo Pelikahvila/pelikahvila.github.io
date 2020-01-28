@@ -13,7 +13,7 @@ section { grid-area: section;}
       display: grid;
       grid-template-areas:
         'header header header header header header'
-        'aside nav nav nav nav nav'
+        'nav nav nav nav nav nav'
         'aside article article article section section'
         'footer footer footer footer footer footer';
       grid-gap: 10px;
@@ -23,10 +23,11 @@ section { grid-area: section;}
       font-family: 'Lobster Two', cursive;
     }
 
+
+
     .navbar {
       display: block;
-      /* display: inline-block; ??? */
-      justify-content: center;
+      text-align: center;
       background-color: #d883c0;
       list-style-type: none;
       height: auto;
@@ -52,6 +53,14 @@ section { grid-area: section;}
       border-radius: 20px;
     }
 
+    .banner {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
     h1 {
       text-align: center;
     }
@@ -61,7 +70,7 @@ section { grid-area: section;}
     }
 
     header, aside, article, nav, footer,  section {
-        border: none; 
+      border: none; 
     }
 
     @media screen and (min-width: 320px) and (max-width: 480px){
@@ -79,11 +88,3 @@ section { grid-area: section;}
         width: 320px;
       }
     }
-
-.banner {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
