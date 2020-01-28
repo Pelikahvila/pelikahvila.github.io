@@ -14,16 +14,16 @@ section { grid-area: section;}
       grid-template-areas:
         'header header header header header header'
         'nav nav nav nav nav nav'
-        'aside article article article section section'
+        'article article article article article article'
+        'section section section section section section'
         'footer footer footer footer footer footer';
       grid-gap: 10px;
       background-color: #f9ace3;
       padding: 10px;
       font-size: 16px;
       font-family: 'Lobster Two', cursive;
+      text-align: center;
     }
-
-
 
     .navbar {
       display: block;
@@ -35,7 +35,6 @@ section { grid-area: section;}
       padding: 0.2em;
       border-width: 2px;
       border-radius: 20px;
-
     }
 
     .navbutton {
