@@ -84,7 +84,6 @@ section { grid-area: section;}
         display: flex;
         flex-direction: column;
         background-color: #f9ace3;
-        padding: 3px;
         font-size: 10px;
         }
     }
