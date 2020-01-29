@@ -59,19 +59,20 @@ section { grid-area: section;}
       margin-left: auto;
       margin-right: auto;
     }
+
     .julisteet {
       max-width: 500px;
       max-height: 450px;
       width: auto;
       height: auto;
     }
+
+    .lista {
+      display: block;
+    }
   
     h1 {
       text-align: center;
-    }
-
-    ul {
-      list-style-type: none;
     }
 
     header, aside, article, nav, footer,  section {
