@@ -17,9 +17,7 @@ section { grid-area: section;}
         'article article article article article article'
         'section section section section section section'
         'footer footer footer footer footer footer';
-      grid-gap: 10px;
       background-color: #f9ace3;
-      padding: 10px;
       font-size: 16px;
       font-family: 'Lobster Two', cursive;
       text-align: center;
