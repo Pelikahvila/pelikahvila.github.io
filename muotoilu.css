@@ -66,13 +66,19 @@ section { grid-area: section;}
     }
 
     .pelivalikoima {
-      max-width: 40%;
+      max-width: 30%;
       width: auto;
       height: auto;
     }
 
     .lista {
       display: block;
+    }
+
+    .opaste {
+      max-width: 20%;
+      width: auto;
+      height: auto;
     }
   
     h1 {
@@ -95,6 +101,12 @@ section { grid-area: section;}
         max-width: 60%;
         width: auto;
         height: auto;
+      }
+
+      .opaste {
+          max-width: 40%;
+          width: auto;
+          height: auto;
       }
     }
     
